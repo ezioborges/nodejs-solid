@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fastify": "^5.3.3"
+  },
+  "name": "nodejs-com-solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezioborges/nodejs-solid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezioborges/nodejs-solid/issues"
+  },
+  "homepage": "https://github.com/ezioborges/nodejs-solid#readme",
+  "description": ""
+}
