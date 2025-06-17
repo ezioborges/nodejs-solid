@@ -30,3 +30,13 @@ GymPass Style app.
 - [ ] Os dados da aplicação precisam estar persistidos em um banco de dados PostgreSQL;
 - [ ] Todas as listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT;
+
+## Configaração do banco de dados Postgres, usando docker
+
+# Comandos
+
+Cria o container Docker:
+`docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql:latest`
+
+Cria o Migrate (arquivo de migração):
+`npx migrate dev --name [escolher um nome]`
