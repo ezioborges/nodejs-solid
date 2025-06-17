@@ -33,10 +33,14 @@ GymPass Style app.
 
 ## Configaração do banco de dados Postgres, usando docker
 
-# Comandos
+# Criar um docker
 
 Cria o container Docker:
 `docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql:latest`
 
 Cria o Migrate (arquivo de migração):
 `npx migrate dev --name [escolher um nome]`
+
+# Criar um compose
+
+    - Verificar o arquivo docker-compose.yml
