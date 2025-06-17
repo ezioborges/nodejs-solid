@@ -48,3 +48,5 @@ Cria o Migrate (arquivo de migração):
 # 1 - Criar os schemas
 
 # 2 - Relacionamentos entre as tabelas
+
+# 3 - Criar usuário
