@@ -44,3 +44,5 @@ Cria o Migrate (arquivo de migração):
 # Criar um compose
 
     - Verificar o arquivo docker-compose.yml
+
+# Criar os schemas
